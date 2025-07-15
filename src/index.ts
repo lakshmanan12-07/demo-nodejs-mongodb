@@ -15,4 +15,4 @@ app.use(express.urlencoded({ extended: true }));
 
 app.use('/v1',routes)
 
-mongoose.connect('mongodb+srv://12twins7:FuutuJMCD3SBVYH6@cluster0.5wrwzib.mongodb.net')
+mongoose.connect('mongodb+srv://username:pass@cluster0.5wrwzib.mongodb.net')
